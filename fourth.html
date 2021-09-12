@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt zaliczeniowy projektowanie WWW</title>
+    <link type="text/css" rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <h2>Projekt zaliczeniowy podstawy projektowania stron WWW</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">
+            <div class="menuOption"><p>Strona główna</p></div>
+        </a>
+        <a href="first.html">
+            <div class="menuOption"><p>Podstrona pierwsza</p></div>
+        </a>
+        <a href="second.html">
+            <div class="menuOption"><p>Podstrona druga</p></div></a>
+        <a href="third.html">
+            <div class="menuOption"><p>Podstrona trzecia</p></div>
+        </a>
+        <a href="fourth.html">
+            <div class="menuOption"><p>Podstrona czwarta</p></div>
+        </a>
+        <div class="floatReset"></div>
+    </nav>
+
+    <section id="centerContent">
+        <div id="ajaxResultDiv">
+        <h1>Ajax z wykorzystaniem API</h1> <br>
+        <button type="button" id="catFact">Wylosuj ciekawostkę o kotach</button>
+        <button type="button" id="dogPic">Wylosuj zdjęcie psa</button>
+        <button type="button" id="randActivity">Wylosuj aktywność</button>
+
+            <p id="myParagraph"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Strona wykonana przez Patryka Urbanowicza</p>
+    </footer>
+</div>
+<script src="scripts/fourth.js"></script>
+</body>
+</html>

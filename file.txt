@@ -1,0 +1,2 @@
+Zawartość pliku tekstowego.
+Został załadowany przy użyciu AJAX.

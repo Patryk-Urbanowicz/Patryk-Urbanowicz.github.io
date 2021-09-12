@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt zaliczeniowy projektowanie WWW</title>
+    <link type="text/css" rel="stylesheet" href="style/style.css">
+    <link type="text/css" rel="stylesheet" href="style/first.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <h2>Projekt zaliczeniowy podstawy projektowania stron WWW</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">
+            <div class="menuOption"><p>Strona główna</p></div>
+        </a>
+        <a href="first.html">
+            <div class="menuOption"><p>Podstrona pierwsza</p></div>
+        </a>
+        <a href="second.html">
+            <div class="menuOption"><p>Podstrona druga</p></div></a>
+        <a href="third.html">
+            <div class="menuOption"><p>Podstrona trzecia</p></div>
+        </a>
+        <a href="fourth.html">
+            <div class="menuOption"><p>Podstrona czwarta</p></div>
+        </a>
+        <div class="floatReset"></div>
+    </nav>
+
+    <section id="centerContent">
+        <div id="calculatorDiv">
+        <h1>Kalkulator</h1>
+        <form id="calculatorForm">
+            <input name="number1" type="number" value="0" step="any" required>
+            <select name="operation">
+                <option value="addition">+</option>
+                <option value="subtraction">-</option>
+                <option value="multiplication">*</option>
+                <option value="diversion">/</option>
+                <option value="modulo">%</option>
+            </select>
+            <input name="number2" type="number" value="0" step="any" required> <br>
+            <button type="button" id="submitButton">calculate</button> <br>
+            <button type="reset">reset</button> <br>
+        </form>
+
+            <div id="resultDiv"><p id="result"></p></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Strona wykonana przez Patryka Urbanowicza</p>
+    </footer>
+</div>
+
+<script src="scripts/first.js"></script>
+</body>
+</html>

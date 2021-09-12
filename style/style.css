@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Glory', sans-serif;
+}
+
+/*
+========================================================
+This pattern is downloaded from www.subtlepatterns.com
+If you need more, that's where to get'em.
+========================================================
+*/
+body {
+    min-height: 100vh;
+    background-image: url(../img/webb-dark.png);
+    color: white;
+}
+
+header {
+    text-align: center;
+    height: 7vh;
+    min-height: 40px;
+    width: 100%;
+    min-width: 560px;
+}
+
+header > h2 {
+    padding-top: 1vh;
+}
+
+nav {
+    height: 10vh;
+    min-width: 560px;
+    min-height: 70px;
+    width: 100%;
+
+}
+
+.menuOption {
+    float: left;
+    width: 20%;
+    min-width: 30px;
+    min-height: 70px;
+    height: 10vh;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: darkgrey;
+    opacity: 75%;
+}
+
+.menuOption > p {
+    margin-top: 20px;
+}
+
+.menuOption:hover {
+    opacity: 90%;
+}
+
+#centerContent {
+    width: 100%;
+    min-width: 560px;
+    height: 80vh;
+    min-height: 450px;
+}
+
+.floatReset {
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    min-width: 560px;
+    height: 3vh;
+    min-height: 20px;
+    text-align: center;
+    background-color: dimgrey;
+    opacity: 60%;
+}
+
+#ajaxResultDiv {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#ajaxResultDiv img{
+    max-width: 500px;
+    max-height: 320px;
+}
+
+#myParagraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    min-height: 100px;
+    margin-top: 20px;
+}
